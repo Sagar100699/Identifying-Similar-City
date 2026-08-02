@@ -24,7 +24,42 @@ Your task is to identify the five most similar cities to Kolkata using historica
 
 Build a recommendation engine that identifies cities that are most similar to Kolkata based on available business metrics.
 
-To achieve this:
+##  Tech Stack
+Python
+Pandas
+NumPy
+Scikit-learn
+Matplotlib
+Seaborn
+Jupyter Notebook
+
+
+## Workflow
+Load and clean the dataset.
+Handle missing values and prepare numerical features.
+Normalize features using MinMaxScaler.
+Train a K-Nearest Neighbors (KNN) model.
+Calculate similarity between Kolkata and all other cities.
+Recommend the Top 5 most similar cities based on Euclidean distance.
+Visualize the results using bar charts and heatmaps.
+Provide business insights for selecting an appropriate control group.
+📊 Key Features
+Data preprocessing and feature engineering
+Feature normalization using MinMaxScaler
+Similarity-based recommendation using KNN
+Business-oriented visualizations
+Explainable results for A/B testing decisions
+💼 Business Impact
+
+Selecting a statistically similar control city reduces bias during experimentation and enables more accurate measurement of product performance. This approach helps product teams make confident, data-driven decisions before rolling out new features nationwide.
+## Learning Outcomes
+Recommendation systems using KNN
+Distance-based machine learning algorithms
+Feature scaling and preprocessing
+Data visualization for business insights
+Experimental design support through analytics
+
+## To achieve this:
 
 1. Prepare the dataset.
 2. Normalize all numerical features.
